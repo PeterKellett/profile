@@ -5,7 +5,7 @@ $(document).ready(function(){
     setTimeout(function() { $("#email").css('visibility','visible'); }, 1250);
     setTimeout(function() { $("#download").css('visibility','visible'); }, 1500);
     // jQuery methods go here...
-    const side_bar = {"QUALIFICATIONS": ["Full Stack Web Developer", "Wix Velo certified Developer", "BEng Electrical Engineering", "Electrician"], "SKILLS": ["HTML, CSS, JS","dc & Crossfilter", "Bootstrap", "Python", "Django", "Flask", "SQL", "Database design and management", "Git", "Heroku", "Stripe", "AWS", "e-Commerce", "gSheets", "Fault finding / troubleshooting"], "PROJECTS": ["World Cup Wizard", "EPOS"], "REFERENCES": ["Padraig Cahill - Opus Web Design", "087 966 3260", "Cathal Dolan - gizagig", "086 679 4786"]}
+    const side_bar = {"QUALIFICATIONS": ["Full Stack Web Developer", "Wix Velo certified Developer", "BEng Tech Electrical Engineering", "Electrician"], "SKILLS": ["HTML, CSS, JS","dc & Crossfilter", "Bootstrap", "Python", "Django", "Flask", "SQL", "Database design and management", "Git", "Heroku", "Stripe", "AWS", "e-Commerce", "gSheets", "Fault finding / troubleshooting"], "PROJECTS": ["World Cup Wizard", "EPOS"], "REFERENCES": ["Padraig Cahill - Opus Web Design", "087 966 3260", "Cathal Dolan - gizagig", "086 679 4786"]}
     var entries = Object.entries(side_bar)
     // console.log(entries)
     // var headerList = Object.keys(side_bar);
